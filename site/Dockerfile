@@ -2,6 +2,6 @@ FROM nginx
 
 COPY testwrap.sh /
 
-COPY html /usr/share/nginx/omnifood
+COPY omnifood /usr/share/nginx/html
 
 CMD ["./testwrap.sh"]
