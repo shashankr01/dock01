@@ -20,6 +20,15 @@ html {
     
 }
 
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*****************************/
 /* REUSABLE COMPONENTS */
 /*****************************/
@@ -204,6 +213,106 @@ header {
     
 }
 
+/*****************************/
+/* Features */
+/*****************************/
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
+
+/*****************************/
+/* Meals */
+/*****************************/
+
+.section-meals{
+    padding: 0;
+}
+.meals-showcase{
+    list-style: none;
+    width: 100%
+}
+
+.meals-showcase li{
+    display: block;
+    width: 25%;
+    float: left
+    
+}
+
+.meal-pic{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-pic img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale3d(1.15,1.15,1.15);
+    transition: transform 0.5s,opacity 0.5s;
+    
+}
+
+.meal-pic img:hover{
+    opacity: 1;
+   transform: scale3d(1.03,1.03,1.03);
+    
+}
+
+
+/*****************************/
+/* How IT Works */
+/*****************************/
+
+.section-steps{
+    background-color: rgba(252, 239, 224, 0.34);
+}
+
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.step-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+
+.app-screen{
+    width: 40%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+.works-step div{
+    color: #d35400;
+    border: 2px solid #d35400;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+
+
+
+/*****************************/
+/* Icons */
+/*****************************/
 
 ion-icon {
   font-size: 350%;
