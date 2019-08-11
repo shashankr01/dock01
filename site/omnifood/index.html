@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
         <title>OmniFoods</title>              
     
@@ -14,9 +15,10 @@
     
     <body>
         <header>
-            <nav>
+            <nav >
                 <div class="row">
                     <img src="resources/img/logo-white.png" alt="OmniFood logo" class="logo">
+                    <img src="resources/img/logo.png" alt="OmniFood logo" class="logo-black">
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>
                         <li><a href="#">How it works</a></li>
@@ -32,7 +34,7 @@
                 <a class="btn btn-ghost" href="#">Show me more </a>
             </div>
         </header>
-        <section class="section-features">
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
@@ -136,7 +138,7 @@
             <div class="col span-1-of-2 step-box">
              <img src="resources/img/app-iPhone.png" alt="Omni food app on iphone" class="app-screen">
             </div>
-            <div class="col span-1-of-2 step-box">
+            <div class="col span-1-of-2 step-box sty">
                 <div class="works-step">
                     <div>1</div>
                     <p>Choose the subscription plan that best fits your needs and sign up today</p>
@@ -153,9 +155,300 @@
                 <a href="#" class="btn-app" ><img src="resources/img/download-app-android.png" alt="Play Store link"></a>
             </div>
         </div>
+        </section>
+        
+        <section class="section-cities">
+            <div class="row">
+                <h2>We're currently in these cities</h2>
+            </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/bangalore.jpg" alt="Bangalore">
+                <h3>Bangalore</h3>
+                <div class="cities-feature">
+                <ion-icon name="people"  size="small"></ion-icon>
+                    <p>1600+ happy eaters</p>
+                </div>
+                <div class="cities-feature">
+                <ion-icon name="ribbon"  size="small"></ion-icon>
+                    <p>60+ top chefs</p>
+                </div>
+                <div class="cities-feature">
+               <ion-icon name="logo-twitter"  size="small" ></ion-icon>
+                    <p><a href="#">@omnifood_blr</a></p>
+                </div>
+            
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/hyderabad.jpg" alt="Hyderabad">
+                <h3>Hyderabad</h3>
+                <div class="cities-feature">
+                <ion-icon name="people"  size="small"></ion-icon>
+                    <p> 3700+ happy eaters</p>
+                </div>
+                <div class="cities-feature">
+                <ion-icon name="ribbon"  size="small"></ion-icon>
+                    <p>160+ top chefs</p>
+                </div>
+                <div class="cities-feature">
+               <ion-icon name="logo-twitter"  size="small" ></ion-icon>
+                    <p> <a href="#">@omnifood_hyd </a></p>
+                </div>
+            
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/chennai.jpg" alt="Chennai">
+                <h3>Chennai</h3>
+                <div class="cities-feature" >
+                <ion-icon name="people"  size="small"></ion-icon>
+                    <p> 2300+ happy eaters</p>
+                </div>
+                <div class="cities-feature">
+                <ion-icon name="ribbon" size="small" ></ion-icon>
+                    <p>110+ top chefs</p>
+                </div>
+                <div class="cities-feature">
+               <ion-icon name="logo-twitter"  size="small"></ion-icon>
+                    <p><a href="#">@omnifood_chn</a></p>
+                </div>
+            
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/delhi.jpg" alt="Delhi">
+                <h3>Delhi</h3>
+                <div class="cities-feature" >
+                <ion-icon name="people"  size="small"></ion-icon>
+                    <p> 1200+ happy eaters</p>
+                </div>
+                <div class="cities-feature" >
+                <ion-icon name="ribbon"  size="small"></ion-icon>
+                    <p> 50+ top chefs</p>
+                </div>
+                <div class="cities-feature">
+               <ion-icon name="logo-twitter"  size="small"></ion-icon>
+                    <p><a href="#">@omnifood_dhl </a></p>
+                </div>
+            
+            </div>
+            </div>
         
         </section>
+        
+        <section class="section-testimonials">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+            </div>
+            <div class="row">
+                  <div class="col span-1-of-3 ">
+                      <blockquote>
+               
+                    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                      <cite> <img src="resources/img/Salman.jpg" alt="Bangalore">
+                          Salman</cite>
+                      </blockquote>
+               
+            </div>
+            <div class="col span-1-of-3 ">
+                <blockquote>
+               
+                     Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Delhi, but no one comes even close to Omifood. Me and my family are so in love!
+                <cite> <img src="resources/img/varun.jpg" alt="Hyderabad">
+                Varun </cite>
+                </blockquote>
+               
+               
+            
+            </div>
+            <div class="col span-1-of-3 ">
+                 <blockquote>
+                
+                    I was looking for a quick and easy food delivery service in Bangalore. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                     <cite><img src="resources/img/Priyanka.jpg" alt="Chennai">
+                Priyanka</cite> 
+                     </blockquote>
+              
+                
+            
+            </div>
+            </div>
+        </section>
+        <section class="section-plan">
+            <div class="row">
+            <h2>Start eating healthy today</h2>
+            
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="plan-price">399₹ <span> / month</span></p>
+                            <p class="plan-price-meal">That’s only 13.30₹ per meal</p>
+                                                
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>1 meal every day</li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Order 24/7</li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Access to newest creations</li>                                                   
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Free delivery</li>                                                   
+                            </ul>
+                        
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign Up Now</a>
+                        </div>
+                    </div>
+                    
+                    </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Pro</h3>
+                            <p class="plan-price">149₹ <span>/ month</span></p>
+                            <p class="plan-price-meal">That’s only 14.90₹ per meal</p>
+                                                
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>1 meal 10 days/month</li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Order 24/7</li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Access to newest creations</li>                                                   
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Free delivery</li>                                                   
+                            </ul>
+                        
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sign Up Now</a>
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+                    <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Starter</h3>
+                            <p class="plan-price">19₹ <span> / meal</span></p>
+                            <p class="plan-price-meal">&nbsp;</p>                    
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>1 meal</li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Order from 8 am to 12 pm</li>
+                                <li><ion-icon name="close" size="small"></ion-icon> <br></li>
+                                <li><ion-icon name="checkmark" size="small"></ion-icon>Free delivery</li>                                                      
+                            </ul>
+                        
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sign Up Now</a>
+                        </div>
+                    
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </section>
+        <section class="section-form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>            
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your EmailId" required>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="findus">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type = "text" list = "findus" name="findus" placeholder="Click to Select" required> 
+                              <datalist id = "findus">
+                                <option value = "Friends">
+                                <option value = "Social Media">
+                                <option value = "Advertisement">
+                                <option value = "Others">
+                              </datalist>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>Yes Please!
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
+                      
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Andriod App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#" class="test"><span class="twitter"><ion-icon name="logo-twitter" ></ion-icon></span></a></li>
+                        <li><a href="#" class="test"><span class="facebook"><ion-icon name="logo-facebook" ></ion-icon></span></a></li>
+                        <li><a href="#" class="test"><span class="googleplus"><ion-icon name="logo-googleplus"></ion-icon></span></a></li>
+                        <li><a href="#" class="test"><span class="instagram"><ion-icon name="logo-instagram" ></ion-icon></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>Coyright &copy; 2019 by Omni foods. All right reserved.</p>
+            </div>
+        </footer>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>   
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        
     </body>
 
 
